@@ -5,7 +5,7 @@ export default function Dashboard() {
   return (
     <div className='flex flex-col xl:flex-row xl:h-screen'>
       {/* Contenedor de la imagen */}
-      <div className='h-90 xl:h-full xl:w-1/2 border-2 bg-sky-400 rounded-b-4xl xl:rounded-b-none xl:rounded-r-4xl overflow-hidden'>
+      <div className='h-90 xl:h-full xl:w-1/2 bg-sky-400 rounded-b-4xl xl:rounded-b-none xl:rounded-r-4xl overflow-hidden'>
         <img 
           src="https://res.cloudinary.com/dcyr5qkhg/image/upload/v1737972201/4952124896499052248_ler41y.jpg" 
           alt="" 
