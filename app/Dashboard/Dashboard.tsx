@@ -14,7 +14,7 @@ export default function Dashboard() {
       </div>
 
       {/* Contenedor del formulario */}
-      <div className='flex mt-15 xl:mt-0 flex-col items-center justify-center gap-8 xl:w-1/2 xl:px-16'>
+      <div className='flex mt-15 mb-4 xl:mt-0 flex-col items-center justify-center gap-8 xl:w-1/2 xl:px-16'>
         <img 
           src="https://res.cloudinary.com/dcyr5qkhg/image/upload/v1737971947/vitaly_ucr8hf.png" 
           alt="vitaly" 
