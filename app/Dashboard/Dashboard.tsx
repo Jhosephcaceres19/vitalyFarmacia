@@ -8,7 +8,7 @@ export default function Dashboard() {
       <div className='h-90 xl:h-full xl:w-1/2 bg-sky-400 rounded-b-4xl xl:rounded-b-none xl:rounded-r-4xl overflow-hidden'>
         <img 
           src="https://res.cloudinary.com/dcyr5qkhg/image/upload/v1737972201/4952124896499052248_ler41y.jpg" 
-          alt="" 
+          alt="image dash" 
           className='w-full h-full object-cover'
         />
       </div>
@@ -22,7 +22,7 @@ export default function Dashboard() {
         <h1 className='text-4xl font-bold'>¡Bienvenido de nuevo!</h1>
         <input className='border-2 border-black p-3 w-90' placeholder='Correo electronico'></input>
         <input className='border-2 border-black p-3 w-90' placeholder='Contraseña'></input>
-        <Link href="#" className='text-3xl font-semibold border-2 rounded-full bg-sky-400 p-4 border-black'>Iniciar sesion</Link>
+        <Link href="/admin" className='text-2xl font-semibold border-2 rounded-full bg-sky-400 p-4 border-black'>Iniciar sesion</Link>
       </div>
     </div>
   );
