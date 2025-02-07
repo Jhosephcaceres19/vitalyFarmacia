@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Admin() {
+export default function Reportes() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -40,7 +40,7 @@ export default function Admin() {
         </div>
       </div>
       <div className="w-60 flex-grow bg-gradient-to-r from-sky-800 to-sky-400 text-xl font-bold text-blue-50">
-        <Link href="../page/tablero" className="flex p-4 gap-3">
+        <Link href="../../page/tablero" className="flex p-4 gap-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export default function Admin() {
           </div>
           <div>Tablero</div>
         </Link>
-        <Link href="../page/productos" className="flex p-4 gap-3">
+        <Link href="../../page/productos" className="flex p-4 gap-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +111,7 @@ export default function Admin() {
                 </div>
               )}
             </div>
-        <Link href="../page/proveedores" className="flex p-4 gap-3">
+        <Link href="../../page/proveedores" className="flex p-4 gap-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ export default function Admin() {
           </div>
           <div>Proveedores</div>
         </Link>
-        <Link href="../page/empleados" className="flex p-4 gap-3">
+        <Link href="../../page/empleados" className="flex p-4 gap-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +149,7 @@ export default function Admin() {
           </div>
           <div>Empleados</div>
         </Link>
-        <Link href="../page/reportes" className="flex p-4 gap-3">
+        <Link href="../../page/reportes" className="flex p-4 gap-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ export default function Admin() {
           </div>
           <div>Reportes</div>
         </Link>
-        <Link href="../page/historial" className="flex p-4 gap-3">
+        <Link href="../../page/historial" className="flex p-4 gap-3">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
